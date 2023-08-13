@@ -1,0 +1,26 @@
+@model ProductDtoForInsertion
+
+<form method="post" asp-action="Create" enctype="multipart/form-data">
+    <div class="form-group my-2">
+        <select class="form-control" asp-items="@ViewBag.Categories" asp-for="CategoryId">Category Name</select>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="ProductName">Product Name</label>
+        <input asp-for="ProductName" class="form-control">
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="Summary">Summary</label>
+        <input asp-for="Summary" class="form-control">
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control">
+    </div>
+    <div class="form-group my-3">
+        <label asp-for="ImageUrl"></label>
+        <input name="file" type="file" class="form-control" />
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-success" type="submit">Save</button>
+    </div>
+</form>

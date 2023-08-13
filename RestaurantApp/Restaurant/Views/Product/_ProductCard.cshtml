@@ -1,0 +1,10 @@
+@model Product
+<div class="card col-md-3" style="width: 18rem;">
+    <div class="card-body">
+        <img class="card-img-top" src="@Model?.ImageUrl" alt="Card image cap">
+        <h5 class="card-title">@Model.ProductName</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Price.ToString("c")</h6>
+        <a asp-action="Index" class="btn btn-outline-primary card-link">Card link</a>
+        <a asp-action="Index" class="btn btn-outline-success card-link">Home</a>
+    </div>
+</div>
