@@ -16,5 +16,9 @@ namespace Restaurant.Controllers
             var model = _manager.ProductService.GetAll(false);
             return View(model);
         }
+        public IActionResult Get(int id){
+            var model = _manager.ProductService.GetOne(id, true);
+            return View(model);
+        }
     }
 }

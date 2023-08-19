@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Restaurant/1.0.0": {
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Repositories": "1.0.0",
           "Services": "1.0.0"

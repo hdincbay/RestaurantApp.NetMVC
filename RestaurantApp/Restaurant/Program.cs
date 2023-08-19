@@ -1,3 +1,4 @@
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using Repositories.Contracts;
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
 builder.Services.AddDbContext<RepositoryContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"), b => b.MigrationsAssembly("Restaurant"));
 });
@@ -18,7 +21,10 @@ builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 
+
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddSingleton<Cart>();
+
 
 var app = builder.Build();
 
@@ -48,6 +54,7 @@ app.UseEndpoints(endpoint => {
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}"
     );
+    endpoint.MapRazorPages();
 });
 
 app.Run();

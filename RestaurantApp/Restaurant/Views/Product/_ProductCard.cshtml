@@ -4,7 +4,13 @@
         <img class="card-img-top" src="@Model?.ImageUrl" alt="Card image cap">
         <h5 class="card-title">@Model.ProductName</h5>
         <h6 class="card-subtitle mb-2 text-muted">@Model.Price.ToString("c")</h6>
-        <a asp-action="Index" class="btn btn-outline-primary card-link">Card link</a>
-        <a asp-action="Index" class="btn btn-outline-success card-link">Home</a>
+        <div class="btn-group">
+            <form method="post" id="@Model.ProductId" asp-page="/Cart">
+            <input type="hidden" asp-for="ProductId">
+            <input type="hidden" name="returnUrl" value="/Product/Get/@Model.ProductId">
+            <button type="submit" class="btn btn-outline-primary"><i class="fa fa-cart-plus"></i></button></form>
+            <a asp-action="Get" asp-route-id="@Model.ProductId" class="btn btn-outline-primary card-link">Get details</a>
+        </div>
+        
     </div>
 </div>

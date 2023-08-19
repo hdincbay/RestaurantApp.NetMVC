@@ -33,6 +33,18 @@
       "PackagePath": "staticwebassets\\images\\pexels-ash-376464.jpg"
     },
     {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-julia-sakelli-905485.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-julia-sakelli-905485.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-rdne-stock-project-8963961.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-rdne-stock-project-8963961.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-shameel-mukkath-5175618.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-shameel-mukkath-5175618.jpg"
+    },
+    {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

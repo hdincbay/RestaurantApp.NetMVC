@@ -1,0 +1,11 @@
+@model Product
+
+<div class="text-center">
+    <h1>@Model.ProductName</h1>
+    <img class="border shadow hover" width="400" src="@Model.ImageUrl">
+    <h2>@Model.Price.ToString("c")</h2>
+</div>
+<div class="btn-group">
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i> Home</a>
+    <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index"><i class="fa fa-list"></i> Products</a>
+</div>
