@@ -1,0 +1,14 @@
+@model IEnumerable<Category>
+
+<div class="display-6 text-center">
+    <table class="table table-hover">
+        <tbody>
+            @foreach(var ct in Model){
+                <tr>
+                    <td>@ct.CategoryId</td>
+                    <td>@ct.CategoryName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

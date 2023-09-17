@@ -1,6 +1,11 @@
 @model Product
 
-<h3>@Model.ProductName</h3>
-<p>@Model.Price</p>
-<img width="150" src="@Model.ImageUrl">
-<p>@Model.Summary</p>
+<div class="display-6 text-center">
+    <h3>@Model.ProductName</h3>
+    <p>@Model.Price</p>
+    <div class="img-fluid rounded-4 hover-shadow">
+        <img width="400" src="@Model.ImageUrl">
+    </div>
+    <p class="text-danger">@Model.Summary</p>
+</div>
+

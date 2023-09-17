@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\Restaurant.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.dark.min.css",
+      "PackagePath": "staticwebassets\\css\\mdb.dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.dark.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mdb.dark.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.dark.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\mdb.dark.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.dark.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mdb.dark.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.min.css",
+      "PackagePath": "staticwebassets\\css\\mdb.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mdb.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\mdb.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\mdb.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mdb.rtl.min.css.map"
+    },
+    {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -21,6 +53,10 @@
       "PackagePath": "staticwebassets\\images\\2.jpg"
     },
     {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\Spagetti.jpg",
+      "PackagePath": "staticwebassets\\images\\Spagetti.jpg"
+    },
+    {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\ayran.jpg",
       "PackagePath": "staticwebassets\\images\\ayran.jpg"
     },
@@ -29,12 +65,40 @@
       "PackagePath": "staticwebassets\\images\\doner.jpg"
     },
     {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\home.jpg",
+      "PackagePath": "staticwebassets\\images\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\home2.jpg",
+      "PackagePath": "staticwebassets\\images\\home2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\homebg2.jpg",
+      "PackagePath": "staticwebassets\\images\\homebg2.jpg"
+    },
+    {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-ash-376464.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-ash-376464.jpg"
     },
     {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-designbyja-2109099.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-designbyja-2109099.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-foodie-factor-539451.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-foodie-factor-539451.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-guilherme-rossi-1819669.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-guilherme-rossi-1819669.jpg"
+    },
+    {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-julia-sakelli-905485.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-julia-sakelli-905485.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-nishant-aneja-2955819.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-nishant-aneja-2955819.jpg"
     },
     {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-rdne-stock-project-8963961.jpg",
@@ -43,6 +107,14 @@
     {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-shameel-mukkath-5175618.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-shameel-mukkath-5175618.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-valeria-boltneva-1639557.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-valeria-boltneva-1639557.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\userbg.jpg",
+      "PackagePath": "staticwebassets\\images\\userbg.jpg"
     },
     {
       "Id": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\js\\site.js",

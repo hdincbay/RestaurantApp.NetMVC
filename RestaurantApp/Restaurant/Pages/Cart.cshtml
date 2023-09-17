@@ -1,5 +1,6 @@
-@page "/Cart"
+@page "/cart"
 @model CartModel
+
 <div>
     <div class="text-center display-6">
         Cart
@@ -9,7 +10,7 @@
             <tr>
                 <th>Product</th>
                 <th>Quantiy</th>
-                <th>Price</th>
+                <th>Price</th>    
                 <th>Subtotal</th>
                 <th>Operations</th>
             </tr>
@@ -24,7 +25,7 @@
                     <td>@((line.Product.Price * line.Quantity).ToString("c2"))</td>
                     <td>
                         <form method="post" asp-page-handler="Remove">
-                            <input type="hidden" name="id" value="@line.Product.ProductId">
+                            <input type="hidden" name="ProductId" value="@line.Product.ProductId">
                             <input type="hidden" name="returnUrl" value="@Model.ReturnUrl">
                             <button type="submit" class="btn btn-sm btn-outline-danger">
                                 <i class="fa fa-trash"></i>
@@ -44,4 +45,7 @@
             </tr>
         </tfoot>
     </table>
+</div>
+<div class="btn-group my-2 justify-content-center">
+    <a class="btn btn-outline-primary" href="@Model.ReturnUrl">Continue Shopping</a>
 </div>

@@ -1,1 +1,31 @@
-<h1>Dashboard</h1>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Operations Menu</h3>
+  <a asp-controller="Product" asp-action="Index" class="w3-bar-item w3-button text-primary">Product List</a>
+  <a asp-controller="Product" asp-action="Create" class="w3-bar-item w3-button text-success">Create Product</a>
+  <a asp-controller="Dashboard" asp-action="Orders" class="w3-bar-item w3-button text-dark">Orders 3</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container">
+  <div class="display-6 text-danger">Admin Sayfası</div>
+</div>
+
+
+<div class="w3-container">
+    <div class="display-6">Ekleme, silme ve birçok işlemi bu sayfadan yürütebilme imkanınız mevcuttur.</div>
+</div>
+
+</div>
+      
+</body>
+</html>

@@ -2,10 +2,17 @@ using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using Repositories.Contracts;
+using Restaurant.Models;
 using Services;
 using Services.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(option => {
+    option.IdleTimeout = TimeSpan.FromMinutes(10);//Oturum bilgilerini 10 dk tut taze istek gelmediyse düşür.
+});
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -23,7 +30,7 @@ builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 
 
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddSingleton<Cart>();
+builder.Services.AddScoped<Cart>(c => SessionCart.GetCart(c));
 
 
 var app = builder.Build();
@@ -39,6 +46,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -52,7 +61,7 @@ app.UseEndpoints(endpoint => {
     
     endpoint.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}"
+        pattern: "{controller=Home}/{action=User}/{id?}"
     );
     endpoint.MapRazorPages();
 });

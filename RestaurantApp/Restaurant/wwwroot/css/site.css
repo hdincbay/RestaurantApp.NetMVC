@@ -16,3 +16,29 @@ html {
 body {
   margin-bottom: 60px;
 }
+#t1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+#u1{
+  height: 100vh;
+}
+#feature{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: burlywood;
+  border-radius: 5px;
+  opacity: .5;
+}
+#feature p{
+  padding: 40px;
+  opacity: 1;
+}
+#feature:hover{
+  opacity: 1;
+  transition: all .5s;
+}

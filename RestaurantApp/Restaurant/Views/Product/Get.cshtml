@@ -1,11 +1,24 @@
 @model Product
 
+
 <div class="text-center">
     <h1>@Model.ProductName</h1>
     <img class="border shadow hover" width="400" src="@Model.ImageUrl">
     <h2>@Model.Price.ToString("c")</h2>
 </div>
-<div class="btn-group">
-    <a class="btn btn-primary" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i> Home</a>
-    <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index"><i class="fa fa-list"></i> Products</a>
+<div width="w-100">
+    <ul class="d-inline-flex nav nav-item">
+        <li><a class="btn btn-primary" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i> Home</a></li>
+        <li><a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index"><i class="fa fa-list"></i> Products</a></li>
+    </ul>
+    <ul class="d-inline-flex nav nav-item">
+        <li class="justify-content-end">
+            <form method="post" id="@Model.ProductId" asp-page="/cart">
+                <input type="hidden" asp-for="ProductId">
+                <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()">
+                <button type="submit" class="btn btn-outline-secondary"><i class="fa fa-cart-plus"></i> Add to Cart</button>
+            </form>
+        </li>
+    </ul>
 </div>
+</br>

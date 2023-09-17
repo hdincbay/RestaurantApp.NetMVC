@@ -1,0 +1,24 @@
+@model IEnumerable<CartLine>
+<div class="display-6 text-center text-danger my-3">Order Page</div>
+<table class="table table-hover text-center">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Add time</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var cl in Model)
+        {
+            <tr>
+                <td>@cl.Product.ProductName</td>
+                <td>@cl.date</td>
+                <td>@cl.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-center">
+    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-primary">Back to Admin Page</a>
+</div>
