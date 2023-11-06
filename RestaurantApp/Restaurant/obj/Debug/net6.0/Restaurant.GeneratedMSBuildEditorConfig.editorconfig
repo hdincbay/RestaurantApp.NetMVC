@@ -9,145 +9,173 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Restaurant
 build_property.RootNamespace = Restaurant
-build_property.ProjectDir = C:\Users\hsyn\Desktop\RestaurantApp\Restaurant\
+build_property.ProjectDir = C:\Users\hdinc\Desktop\RestaurantApp\Restaurant\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hsyn\Desktop\RestaurantApp\Restaurant
+build_property.MSBuildProjectDirectory = C:\Users\hdinc\Desktop\RestaurantApp\Restaurant
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/Index.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/Orders.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXE9yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/_Layout.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/_ViewStart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Dashboard/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Create.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Order/_OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcX09yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Get.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Get.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Update.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/_Layout2.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxfTGF5b3V0Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/_ViewStart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Product/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Shared/_Navbar.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Pages/Cart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Pages/Contact.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Pages/Demo.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Pages/_ViewImports.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Pages/_ViewStart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Home/Index.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Home/Privacy.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Home/User.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Home/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Home/_Layout3.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Home/_Layout3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGF5b3V0My5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Product/Get.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Product/Get.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Product/Index.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Product/_ProductCard.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Product/_ProductCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdENhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/CategoriesMenu/default.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/CategoriesMenu/default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc01lbnVcZGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Shared/Error.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/_ViewImports.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Start/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Start/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/_ViewStart.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lqkxp4o1mj
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Home/_Layout.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Home/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-itktz9wrf0
 
-[C:/Users/hsyn/Desktop/RestaurantApp/Restaurant/Views/Shared/_Layout.cshtml]
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dfffm0vbnq

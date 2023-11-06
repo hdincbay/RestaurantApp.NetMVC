@@ -1,4 +1,5 @@
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
 namespace Repositories
@@ -9,23 +10,29 @@ namespace Repositories
         {
         }
 
-        public IQueryable<Order> Orders => throw new NotImplementedException();
+        public IQueryable<Order> Orders => _context.Orders.Include(o => o.Lines).ThenInclude(cl => cl.Product).OrderBy(o => o.Shipped).ThenBy(o => o.OrderId);
 
-        public int NumberOfInProcess => throw new NotImplementedException();
+        public int NumberOfInProcess => _context.Orders.Count(o => o.Shipped.Equals(false));
 
         public void Complete(int id)
         {
-            throw new NotImplementedException();
+            var order = FindByCondition(o => o.OrderId.Equals(id),true);
+            if(order is null)
+                throw new Exception("Order could not found!");
+            order.Shipped = true;
         }
 
         public Order? GetOneOrder(int id)
         {
-            throw new NotImplementedException();
+            return FindByCondition(o => o.OrderId.Equals(id),false);
         }
 
         public void SaveOrder(Order order)
         {
-            throw new NotImplementedException();
+            _context.AttachRange(order.Lines.Select(l => l.Product));
+            if(order.OrderId == 0)
+                _context.Orders.Add(order);
+            _context.SaveChanges();
         }
     }
 }

@@ -1,37 +1,19 @@
-using Entities.Models;
-using Microsoft.EntityFrameworkCore;
-using Repositories;
-using Repositories.Contracts;
-using Restaurant.Models;
-using Services;
-using Services.Contracts;
+using Restaurant.Infrastructe.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(option => {
-    option.IdleTimeout = TimeSpan.FromMinutes(10);//Oturum bilgilerini 10 dk tut taze istek gelmediyse düşür.
-});
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.ConfigureSession();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-builder.Services.AddDbContext<RepositoryContext>(option => {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"), b => b.MigrationsAssembly("Restaurant"));
-});
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IServiceManager, ServiceManager>();
-builder.Services.AddScoped<ICategoryService, CategoryManager>();
-builder.Services.AddScoped<IProductService, ProductManager>();
-builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
-
+builder.Services.ConfigureDbContext(builder.Configuration);
+builder.Services.ConfigureRepositoryRegistration();
+builder.Services.ConfigureServiceRegistration();
 
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddScoped<Cart>(c => SessionCart.GetCart(c));
-
 
 var app = builder.Build();
 
@@ -61,7 +43,7 @@ app.UseEndpoints(endpoint => {
     
     endpoint.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=User}/{id?}"
+        pattern: "{controller=Home}/{action=Index}/{id?}"
     );
     endpoint.MapRazorPages();
 });

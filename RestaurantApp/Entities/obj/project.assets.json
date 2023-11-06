@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hsyn\\.nuget\\packages\\": {}
+    "C:\\Users\\hdinc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\hsyn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\obj\\",
+      "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hsyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

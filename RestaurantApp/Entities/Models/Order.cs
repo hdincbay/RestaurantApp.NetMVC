@@ -5,7 +5,7 @@ namespace Entities.Models
     public class Order
     {
         public int OrderId { get; set; }
-        public ICollection<CartLine> Lİnes { get; set; } = new List<CartLine>();
+        public ICollection<CartLine> Lines { get; set; } = new List<CartLine>();
         [Required(ErrorMessage = "Name is required.")]
         public string? Name { get; set; }
         [Required(ErrorMessage = "Line1 is required.")]

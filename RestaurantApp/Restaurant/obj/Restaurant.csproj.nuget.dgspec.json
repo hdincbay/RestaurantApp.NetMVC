@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj": {}
+    "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\hsyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hsyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\hsyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hsyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -124,21 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj": {
+    "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj",
         "projectName": "Restaurant",
-        "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj",
-        "packagesPath": "C:\\Users\\hsyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Restaurant\\obj\\",
+        "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\Restaurant.csproj",
+        "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hsyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,21 +146,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj"
               },
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\Services.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\Services.csproj"
               }
             }
           }
@@ -205,21 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\Services.csproj": {
+    "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\hsyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Services\\obj\\",
+        "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hsyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -233,11 +232,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\hsyn\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj"
+              "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -273,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
