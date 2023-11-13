@@ -1,13 +1,14 @@
-# RestaurantApp.NetMVC
-![Ekran görüntüsü 2023-09-18 000956](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/560738a7-d088-4e7d-bd23-37cb53ddc352)
-![Ekran görüntüsü 2023-09-18 001110](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/57e9d393-0cbd-4d1d-b819-b0fa762d027a)
-![Ekran görüntüsü 2023-09-18 001202](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/ab6e968b-f909-4ca6-a337-0df88b0d6d54)
-
-<h1>Admin;</h1>
-
-![Ekran görüntüsü 2023-09-18 001304](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/7d870ff7-e57f-4797-b454-bb6829b47b82)
-![Ekran görüntüsü 2023-09-18 001813](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/c3eb05ba-63a7-4a4e-91ba-04543630d046)
-
-
-
-
+<h6>Ana Sayfa</h6>
+![Anasayfa](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/11eb46f0-315e-40b5-bb41-c57ea5fd8637)
+<h6>Ürünler sayfası</h6>
+![Urunler](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/c97ac317-269e-4421-98ee-bad22cc5d430)
+<h6>Ürün detay sayfası</h6>
+![UrunDetay](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/33d21adb-8bff-4924-a798-bdbadc4b6032)
+<h6>Ürün ekleme sayfası</h6>
+![UrunEkleme](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/544fa7ca-d29d-4396-8bb8-5325eb82d1c7)
+<h6>Sepet sayfası</h6>
+![Sepet](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/94d62aab-c257-40a0-8075-7563e43f6c98)
+<h6>Ürünleri kontrol edebilecek kişi olan Admin sayfası</h6>
+![AdminUrunler](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/685be42b-b4f3-442f-b096-2e624508437b)
+<h6>Oluşturulan siparişlerin düzenlenebileceği Siparişler sayfası</h6>
+![AdminSiparişler](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/fdb73f03-eb5b-4861-8ac2-ac3bbc6e6ba0)
