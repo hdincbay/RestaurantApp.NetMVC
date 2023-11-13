@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EaUiRC/7Ub1WSiprRlqnm49a8Ar1yIhObZrmE9F8Sks=",
+  "Hash": "v+ZZNVdo3IwDSuAQ1nHa12nL0uCpLXWjp1q8R3jaxsg=",
   "Source": "Restaurant",
   "BasePath": "_content/Restaurant",
   "Mode": "Default",
@@ -2176,6 +2176,23 @@
       "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
+      "Identity": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\about3.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "images/about3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\ayran.jpg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
@@ -2191,6 +2208,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ayran.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\blog-2.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "images/blog-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blog-2.jpg"
     },
     {
       "Identity": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\doner.jpg",

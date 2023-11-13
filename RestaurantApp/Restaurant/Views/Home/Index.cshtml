@@ -1,11 +1,5 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-    Layout = "_Layout";
-}
-
-
-<div id="u1" class="bg-image" style="background-image: url('/images/homebg2.jpg'); height: 100vh;">
-    <div id="feature">
-        <p style="opacity: 1;">Yemeklerimiz taze ve kalitelidir.</p>
+﻿<div class="container">
+    <div class="text-center">
+        @await Component.InvokeAsync("Showcase")
     </div>
 </div>

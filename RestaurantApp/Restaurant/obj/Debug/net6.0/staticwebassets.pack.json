@@ -509,8 +509,16 @@
       "PackagePath": "staticwebassets\\images\\Spagetti.jpg"
     },
     {
+      "Id": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\about3.jpg",
+      "PackagePath": "staticwebassets\\images\\about3.jpg"
+    },
+    {
       "Id": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\ayran.jpg",
       "PackagePath": "staticwebassets\\images\\ayran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-2.jpg"
     },
     {
       "Id": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Restaurant\\wwwroot\\images\\doner.jpg",

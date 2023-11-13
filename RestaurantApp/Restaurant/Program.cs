@@ -1,3 +1,4 @@
+using Restaurant.Infrastructe;
 using Restaurant.Infrastructe.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ builder.Services.ConfigureServiceRegistration();
 builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
-
+app.ConfigureAndCheckMigration();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

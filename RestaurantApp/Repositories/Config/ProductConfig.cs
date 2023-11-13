@@ -9,8 +9,8 @@ namespace Repositories.Config
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasData(
-                new Product() { ProductId = 1, ProductName = "Kebap", Price = 120, ImageUrl="/images/1.jpg", CategoryId = 1},
-                new Product() { ProductId = 2, ProductName = "Kola", Price = 15, ImageUrl="/images/2.jpg", CategoryId = 2}
+                new Product() { ProductId = 1, ProductName = "Kebap", Price = 120, ImageUrl="/images/1.jpg", CategoryId = 1, ShowCase = true},
+                new Product() { ProductId = 2, ProductName = "Kola", Price = 15, ImageUrl="/images/2.jpg", CategoryId = 2, ShowCase = true}
             );
 
         }

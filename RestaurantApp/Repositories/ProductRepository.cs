@@ -17,6 +17,12 @@ namespace Repositories
 
         public Product? GetOneProduct(int id, bool trackChanges) => FindByCondition(p => p.ProductId.Equals(id), trackChanges);
 
+        public IQueryable<Product> GetShowcaseProducts(bool trackChanges)
+        {
+            return FindAll(trackChanges).Where(r => r.ShowCase.Equals(true));
+        }
+
+
         public void UpdateOneProduct(Product entity) => Update(entity);
     }
 }

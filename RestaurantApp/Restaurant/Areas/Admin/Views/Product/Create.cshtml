@@ -1,5 +1,7 @@
 @model ProductDtoForInsertion
-
+<div class="display-6 my-3">
+    Ürün Ekleme Sayfası
+</div>
 <form method="post" asp-action="Create" enctype="multipart/form-data">
     <div class="form-group my-2">
         <select class="form-control" asp-items="@ViewBag.Categories" asp-for="CategoryId">Category Name</select>
@@ -19,6 +21,10 @@
     <div class="form-group my-3">
         <label asp-for="ImageUrl"></label>
         <input name="file" type="file" class="form-control" />
+    </div>
+    <div class="form-group my-3">
+        <label asp-for="ShowCase">Show Case</label>
+        <input asp-for="ShowCase" type="checkbox" class="form-check-input"/>
     </div>
     <div class="btn-group">
         <button class="btn btn-success" type="submit">Save</button>

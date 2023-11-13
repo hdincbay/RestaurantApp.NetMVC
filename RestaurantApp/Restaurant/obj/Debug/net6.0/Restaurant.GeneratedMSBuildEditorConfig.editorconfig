@@ -132,12 +132,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Product/_ProductCard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdENhcmQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/CategoriesMenu/default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc01lbnVcZGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/Showcase/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvd2Nhc2VcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Components/_ViewImports.cshtml]
@@ -146,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/_ProductCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hdinc/Desktop/RestaurantApp/Restaurant/Views/Shared/_ValidationScriptsPartial.cshtml]

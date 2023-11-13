@@ -1,38 +1,333 @@
 @model IEnumerable<Product>
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
 
-<div class="d-flex justify-content-end">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="d-flex justify-content-end col-md-9 offset-md-2 my-3">
+    <a class="btn btn-success" asp-area="Admin" asp-controller="Product" asp-action="Create"><i class="fa fa-plus"></i> Create</a>
 </div>
-<table class="table table-hover text-center">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Image Url</th>
-            <th>Product Name</th>
-            <th>Price</th>
-            <th>Operations</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(Product product in Model){
+<div class="container text-center col-md-12 my-3">
+    <div class="d-flex justify-content-start">
+        <div class="form-check mx-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" style="width: 25px; height: 25px;">
+            <label class="form-check-label mx-1" for="flexCheckDefault">
+                1. Kolonu Gizle
+            </label>
+        </div>
+        <div class="form-check mx-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" style="width: 25px; height: 25px;">
+            <label class="form-check-label mx-1" for="flexCheckChecked">
+                2. Kolonu Gizle
+            </label>
+        </div>
+        <div class="form-check mx-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" style="width: 25px; height: 25px;">
+            <label class="form-check-label mx-1" for="flexCheckChecked">
+                3. Kolonu Gizle
+            </label>
+        </div>
+    </div>
+    <table id="example" class="display table table-hover text-center" style="width: 100%;">
+        <thead>
             <tr>
-                <td>@product.ProductId</td>
-                <td>
-                    <img class="border border-light rounded" width="50" src="@product.ImageUrl">
-                </td>
-                <td>@product.ProductName</td>
-                <td>@product.Price.ToString("c")</td>
-                <td>
-                    <div class="btn-group">
-                        <a class="btn btn-primary" asp-action="Update" asp-route-id="@product.ProductId"><i class="fa-solid fa-pen-to-square"></i> Update</a>
-                        <a class="btn btn-outline-success" asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductId"><i class="fa-solid fa-trash"></i> Delete</a>
-                        <a class="btn btn-danger" asp-controller="Product" asp-action="Get" asp-route-id="@product.ProductId"><i class="fa-solid fa-trash"></i> Web</a>
-                
-                </td>
+                <th id="col1">Id</th>
+                <th id="col2">Image Url</th>
+                <th id="col3">Product Name</th>
+                <th id="col4">Price</th>
+                <th id="col5">Operations</th>
             </tr>
-        }
-    </tbody>
-</table>
-<div class="btn-group">
-    <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-outline-danger">Back to Homepage</a>
-    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-danger">Back to Admin page</a>
+        </thead>
+        <tbody>
+            @foreach(Product product in Model){
+                <tr>
+                    <td id="rowcol1">@product.ProductId</td>
+                    <td id="rowcol2">
+                        <img class="border border-light rounded" width="50" src="@product.ImageUrl">
+                    </td>
+                    <td id="rowcol3">@product.ProductName</td>
+                    <td id="rowcol4">@product.Price.ToString("c")</td>
+                    <td id="rowcol5">
+                        <div class="btn-group">
+                            <a class="btn btn-primary" asp-action="Update" asp-route-id="@product.ProductId"><i class="fa-solid fa-pen-to-square"></i> Update</a>
+                            <a class="btn btn-outline-success" asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductId"><i class="fa-solid fa-trash"></i> Delete</a>
+                            <a class="btn btn-danger" asp-controller="Product" asp-action="Get" asp-route-id="@product.ProductId"><i class="fa-solid fa-trash"></i> Web</a>
+                    
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="btn-group">
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-outline-danger">Back to Homepage</a>
+        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-danger">Back to Admin page</a>
+    </div>
 </div>
+<script>
+    $(document).ready(function()
+    {
+        $("#col1").click(function()
+        {
+            $("#rowcol1").hide();
+        });
+    })
+    $(document).ready(function() {
+        $('#example').DataTable( {
+            dom: 'Bfrtip',
+            language: 
+            {
+                "info": "_TOTAL_ kayıttan _START_ - _END_ arasındaki kayıtlar gösteriliyor",
+                "infoEmpty": "Kayıt yok",
+                "infoFiltered": "(_MAX_ kayıt içerisinden bulunan)",
+                "infoThousands": ".",
+                "lengthMenu": "Sayfada _MENU_ kayıt göster",
+                "loadingRecords": "Yükleniyor...",
+                "processing": "İşleniyor...",
+                "search": "Ara:",
+                "zeroRecords": "Eşleşen kayıt bulunamadı",
+                "paginate": {
+                    "first": "İlk",
+                    "last": "Son",
+                    "next": "Sonraki",
+                    "previous": "Önceki"
+                },
+                "aria": {
+                    "sortAscending": ": artan sütun sıralamasını aktifleştir",
+                    "sortDescending": ": azalan sütun sıralamasını aktifleştir"
+                },
+                "select": {
+                    "rows": {
+                        "_": "%d kayıt seçildi",
+                        "1": "1 kayıt seçildi"
+                    },
+                    "cells": {
+                        "1": "1 hücre seçildi",
+                        "_": "%d hücre seçildi"
+                    },
+                    "columns": {
+                        "1": "1 sütun seçildi",
+                        "_": "%d sütun seçildi"
+                    }
+                },
+                "autoFill": {
+                    "cancel": "İptal",
+                    "fillHorizontal": "Hücreleri yatay olarak doldur",
+                    "fillVertical": "Hücreleri dikey olarak doldur",
+                    "fill": "Bütün hücreleri <i>%d<\/i> ile doldur",
+                    "info": "Detayı"
+                },
+                "buttons": {
+                    "collection": "Koleksiyon <span class=\"ui-button-icon-primary ui-icon ui-icon-triangle-1-s\"><\/span>",
+                    "colvis": "Sütun görünürlüğü",
+                    "colvisRestore": "Görünürlüğü eski haline getir",
+                    "copySuccess": {
+                        "1": "1 satır panoya kopyalandı",
+                        "_": "%ds satır panoya kopyalandı"
+                    },
+                    "copyTitle": "Panoya kopyala",
+                    "csv": "CSV",
+                    "excel": "Excel",
+                    "pageLength": {
+                        "-1": "Bütün satırları göster",
+                        "_": "%d satır göster",
+                        "1": "1 Satır Göster"
+                    },
+                    "pdf": "PDF",
+                    "print": "Yazdır",
+                    "copy": "Kopyala",
+                    "copyKeys": "Tablodaki veriyi kopyalamak için CTRL veya u2318 + C tuşlarına basınız. İptal etmek için bu mesaja tıklayın veya escape tuşuna basın.",
+                    "createState": "Şuanki Görünümü Kaydet",
+                    "removeAllStates": "Tüm Görünümleri Sil",
+                    "removeState": "Aktif Görünümü Sil",
+                    "renameState": "Aktif Görünümün Adını Değiştir",
+                    "savedStates": "Kaydedilmiş Görünümler",
+                    "stateRestore": "Görünüm -&gt; %d",
+                    "updateState": "Aktif Görünümün Güncelle"
+                },
+                "searchBuilder": {
+                    "add": "Koşul Ekle",
+                    "button": {
+                        "0": "Arama Oluşturucu",
+                        "_": "Arama Oluşturucu (%d)"
+                    },
+                    "condition": "Koşul",
+                    "conditions": {
+                        "date": {
+                            "after": "Sonra",
+                            "before": "Önce",
+                            "between": "Arasında",
+                            "empty": "Boş",
+                            "equals": "Eşittir",
+                            "not": "Değildir",
+                            "notBetween": "Dışında",
+                            "notEmpty": "Dolu"
+                        },
+                        "number": {
+                            "between": "Arasında",
+                            "empty": "Boş",
+                            "equals": "Eşittir",
+                            "gt": "Büyüktür",
+                            "gte": "Büyük eşittir",
+                            "lt": "Küçüktür",
+                            "lte": "Küçük eşittir",
+                            "not": "Değildir",
+                            "notBetween": "Dışında",
+                            "notEmpty": "Dolu"
+                        },
+                        "string": {
+                            "contains": "İçerir",
+                            "empty": "Boş",
+                            "endsWith": "İle biter",
+                            "equals": "Eşittir",
+                            "not": "Değildir",
+                            "notEmpty": "Dolu",
+                            "startsWith": "İle başlar",
+                            "notContains": "İçermeyen",
+                            "notStartsWith": "Başlamayan",
+                            "notEndsWith": "Bitmeyen"
+                        },
+                        "array": {
+                            "contains": "İçerir",
+                            "empty": "Boş",
+                            "equals": "Eşittir",
+                            "not": "Değildir",
+                            "notEmpty": "Dolu",
+                            "without": "Hariç"
+                        }
+                    },
+                    "data": "Veri",
+                    "deleteTitle": "Filtreleme kuralını silin",
+                    "leftTitle": "Kriteri dışarı çıkart",
+                    "logicAnd": "ve",
+                    "logicOr": "veya",
+                    "rightTitle": "Kriteri içeri al",
+                    "title": {
+                        "0": "Arama Oluşturucu",
+                        "_": "Arama Oluşturucu (%d)"
+                    },
+                    "value": "Değer",
+                    "clearAll": "Filtreleri Temizle"
+                },
+                "searchPanes": {
+                    "clearMessage": "Hepsini Temizle",
+                    "collapse": {
+                        "0": "Arama Bölmesi",
+                        "_": "Arama Bölmesi (%d)"
+                    },
+                    "count": "{total}",
+                    "countFiltered": "{shown}\/{total}",
+                    "emptyPanes": "Arama Bölmesi yok",
+                    "loadMessage": "Arama Bölmeleri yükleniyor ...",
+                    "title": "Etkin filtreler - %d",
+                    "showMessage": "Tümünü Göster",
+                    "collapseMessage": "Tümünü Gizle"
+                },
+                "thousands": ".",
+                "datetime": {
+                    "amPm": [
+                        "öö",
+                        "ös"
+                    ],
+                    "hours": "Saat",
+                    "minutes": "Dakika",
+                    "next": "Sonraki",
+                    "previous": "Önceki",
+                    "seconds": "Saniye",
+                    "unknown": "Bilinmeyen",
+                    "weekdays": {
+                        "6": "Paz",
+                        "5": "Cmt",
+                        "4": "Cum",
+                        "3": "Per",
+                        "2": "Çar",
+                        "1": "Sal",
+                        "0": "Pzt"
+                    },
+                    "months": {
+                        "9": "Ekim",
+                        "8": "Eylül",
+                        "7": "Ağustos",
+                        "6": "Temmuz",
+                        "5": "Haziran",
+                        "4": "Mayıs",
+                        "3": "Nisan",
+                        "2": "Mart",
+                        "11": "Aralık",
+                        "10": "Kasım",
+                        "1": "Şubat",
+                        "0": "Ocak"
+                    }
+                },
+                "decimal": ",",
+                "editor": {
+                    "close": "Kapat",
+                    "create": {
+                        "button": "Yeni",
+                        "submit": "Kaydet",
+                        "title": "Yeni kayıt oluştur"
+                    },
+                    "edit": {
+                        "button": "Düzenle",
+                        "submit": "Güncelle",
+                        "title": "Kaydı düzenle"
+                    },
+                    "error": {
+                        "system": "Bir sistem hatası oluştu (Ayrıntılı bilgi)"
+                    },
+                    "multi": {
+                        "info": "Seçili kayıtlar bu alanda farklı değerler içeriyor. Seçili kayıtların hepsinde bu alana aynı değeri atamak için buraya tıklayın; aksi halde her kayıt bu alanda kendi değerini koruyacak.",
+                        "noMulti": "Bu alan bir grup olarak değil ancak tekil olarak düzenlenebilir.",
+                        "restore": "Değişiklikleri geri al",
+                        "title": "Çoklu değer"
+                    },
+                    "remove": {
+                        "button": "Sil",
+                        "confirm": {
+                            "_": "%d adet kaydı silmek istediğinize emin misiniz?",
+                            "1": "Bu kaydı silmek istediğinizden emin misiniz?"
+                        },
+                        "submit": "Sil",
+                        "title": "Kayıtları sil"
+                    }
+                },
+                "stateRestore": {
+                    "creationModal": {
+                        "button": "Kaydet",
+                        "columns": {
+                            "search": "Kolon Araması",
+                            "visible": "Kolon Görünümü"
+                        },
+                        "name": "Görünüm İsmi",
+                        "order": "Sıralama",
+                        "paging": "Sayfalama",
+                        "scroller": "Kaydırma (Scrool)",
+                        "search": "Arama",
+                        "searchBuilder": "Arama Oluşturucu",
+                        "select": "Seçimler",
+                        "title": "Yeni Görünüm Oluştur",
+                        "toggleLabel": "Kaydedilecek Olanlar"
+                    },
+                    "duplicateError": "Bu Görünüm Daha Önce Tanımlanmış",
+                    "emptyError": "Görünüm Boş Olamaz",
+                    "emptyStates": "Herhangi Bir Görünüm Yok",
+                    "removeJoiner": "ve",
+                    "removeSubmit": "Sil",
+                    "removeTitle": "Görünüm Sil",
+                    "renameButton": "Değiştir",
+                    "renameLabel": "Görünüme Yeni İsim Ver -&gt; %s:",
+                    "renameTitle": "Görünüm İsmini Değiştir",
+                    "removeConfirm": "Görünümü silmek istediğinize emin misiniz?",
+                    "removeError": "Görünüm silinemedi"
+                },
+            }
+        } );
+    } );
+</script>
