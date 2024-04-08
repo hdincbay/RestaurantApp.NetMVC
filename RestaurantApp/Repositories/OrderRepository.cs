@@ -14,17 +14,17 @@ namespace Repositories
 
         public int NumberOfInProcess => _context.Orders.Count(o => o.Shipped.Equals(false));
 
-        public void Complete(int id)
+        public async Task Complete(int id)
         {
-            var order = FindByCondition(o => o.OrderId.Equals(id),true);
+            var order = await FindByCondition(o => o.OrderId.Equals(id),true);
             if(order is null)
                 throw new Exception("Order could not found!");
             order.Shipped = true;
         }
 
-        public Order? GetOneOrder(int id)
+        public async Task<Order?> GetOneOrder(int id)
         {
-            return FindByCondition(o => o.OrderId.Equals(id),false);
+            return await FindByCondition(o => o.OrderId.Equals(id),false);
         }
 
         public void SaveOrder(Order order)

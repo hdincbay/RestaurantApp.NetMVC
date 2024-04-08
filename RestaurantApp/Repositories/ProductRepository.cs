@@ -9,20 +9,21 @@ namespace Repositories
         {
         }
 
-        public void CreateOneProduct(Product product) => Create(product);
+        public async Task CreateOneProduct(Product product) => await Create(product);
 
-        public void DeleteOneProduct(Product product) => Delete(product);
+        public async Task DeleteOneProduct(Product product) => await Delete(product);
 
-        public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
+        public async Task<IQueryable<Product>> GetAllProducts(bool trackChanges) => await FindAll(trackChanges);
 
-        public Product? GetOneProduct(int id, bool trackChanges) => FindByCondition(p => p.ProductId.Equals(id), trackChanges);
+        public async Task<Product?> GetOneProduct(int id, bool trackChanges) => await FindByCondition(p => p.ProductId.Equals(id), trackChanges);
 
-        public IQueryable<Product> GetShowcaseProducts(bool trackChanges)
+        public async Task<IQueryable<Product>> GetShowcaseProducts(bool trackChanges)
         {
-            return FindAll(trackChanges).Where(r => r.ShowCase.Equals(true));
+            var products = await FindAll(trackChanges);
+            return products.Where(r => r.ShowCase.Equals(true));
         }
 
 
-        public void UpdateOneProduct(Product entity) => Update(entity);
+        public async Task UpdateOneProduct(Product entity) => await Update(entity);
     }
 }

@@ -1,0 +1,10 @@
+2024-04-07 21:28:48,260 [4] INFO  Restaurant.Controllers.ProductController - This is an info message from HomeController Index action.
+2024-04-07 21:30:09,351 [13] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:30:37,209 [19] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:30:47,392 [20] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:31:18,744 [6] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:32:35,548 [17] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:35:19,518 [4] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:35:29,458 [7] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:36:43,304 [6] INFO  Restaurant.Controllers.ProductController - ProductController (+) Index
+2024-04-07 21:39:14,230 [4] INFO  Restaurant.Controllers.ProductController - Bu bir test logudur.

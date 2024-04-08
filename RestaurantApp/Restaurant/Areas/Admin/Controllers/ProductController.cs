@@ -18,16 +18,19 @@ namespace Restaurant.Areas.Admin.Controllers
             var model = _manager.ProductService.GetOne(id, false);
             return View(model);
         }
-        public IActionResult Index(){
-            var model = _manager.ProductService.GetAll(false);
+        public async Task<IActionResult> Index(){
+            var productTask = _manager.ProductService.GetAll(false);
+            var products = await productTask;
+
+            var model = products.ToList();
             return View(model);
         }
         public IActionResult Create(){
             ViewBag.Categories = GetCategoriesSelectList();
             return View();
         }
-        private SelectList GetCategoriesSelectList(){
-            return new SelectList(_manager.CategoryService.GetAll(false), "CategoryId", "CategoryName", 1);
+        private async Task<SelectList> GetCategoriesSelectList(){
+            return new SelectList(await _manager.CategoryService.GetAll(false), "CategoryId", "CategoryName", 1);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

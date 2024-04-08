@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sxGBbRkYQrz8bzcDq+1mTzSdShnQEWgoSvMN3HWrjW9gTEnN3FfXiyLUFyGiHDTjFPFcwNLDM+OqTDVKdD9LrA==",
+  "dgSpecHash": "EbKUXd2LKqJ0H6XyOX9pp1IbMSu3nWPoPxP9icsM3cUiomYZEfjRt4olkb2UOkz+f8yp56nMwpPRmIdSSbLm0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hdinc\\Desktop\\RestaurantApp\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

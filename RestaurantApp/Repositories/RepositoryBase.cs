@@ -1,4 +1,6 @@
+using System.Data.Common;
 using System.Linq.Expressions;
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
@@ -13,29 +15,29 @@ namespace Repositories
             _context = context;
         }
 
-        public void Create(T entity)
+        public async Task Create(T entity)
         {
-            _context.Set<T>().Add(entity);
+            await Task.Run(() => _context.Set<T>().Add(entity));
         }
 
-        public void Delete(T entity)
+        public async Task Delete(T entity)
         {
-            _context.Set<T>().Remove(entity);
+            await Task.Run(() => _context.Set<T>().Remove(entity));
         }
 
-        public IQueryable<T> FindAll(bool trackChanges)
+        public async Task<IQueryable<T>> FindAll(bool trackChanges)
         {
-            return trackChanges ? _context.Set<T>() : _context.Set<T>().AsNoTracking();
+            return await Task.Run(() => trackChanges ? _context.Set<T>() : _context.Set<T>().AsNoTracking());
         }
 
-        public T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
+        public async Task<T?> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
         {
-            return trackChanges ? _context.Set<T>().Where(expression).SingleOrDefault() : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault();
+            return await Task.Run(() => trackChanges ? _context.Set<T>().Where(expression).SingleOrDefault() : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault());
         }
 
-        public void Update(T entity)
+        public async Task Update(T entity)
         {
-            _context.Set<T>().Update(entity);
+            await Task.Run(() => _context.Set<T>().Update(entity));
         }
     }
 }

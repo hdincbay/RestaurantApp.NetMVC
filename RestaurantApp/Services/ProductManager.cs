@@ -23,23 +23,23 @@ namespace Services
             _manager.Save();
         }
 
-        public void DeleteOne(int id)
+        public async Task DeleteOne(int id)
         {
-            Product product = GetOne(id, true);
+            Product product = await GetOne(id, true);
             if(product is not null){
                 _manager.Product.DeleteOneProduct(product);
                 _manager.Save();    
             }
         }
 
-        public IEnumerable<Product> GetAll(bool trackChanges)
+        public async Task<IEnumerable<Product>> GetAll(bool trackChanges)
         {
-            return _manager.Product.GetAllProducts(trackChanges);
+            return await _manager.Product.GetAllProducts(trackChanges);
         }
 
-        public Product? GetOne(int id, bool trackChanges)
+        public async Task<Product?> GetOne(int id, bool trackChanges)
         {
-            return _manager.Product.GetOneProduct(id, trackChanges);
+            return await _manager.Product.GetOneProduct(id, trackChanges);
         }
 
         public ProductDtoForUpdate GetOneForUpdate(int id, bool trackChanges)
@@ -49,9 +49,9 @@ namespace Services
             return productDto;
         }
 
-        public IEnumerable<Product> GetShowcaseProducts(bool trackChanges)
+        public async Task<IEnumerable<Product>> GetShowcaseProducts(bool trackChanges)
         {
-            var products = _manager.Product.GetShowcaseProducts(trackChanges);
+            var products = await _manager.Product.GetShowcaseProducts(trackChanges);
             return products;
         }
 

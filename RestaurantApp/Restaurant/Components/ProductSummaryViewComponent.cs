@@ -11,8 +11,11 @@ namespace Restaurant.Components
             _manager = manager;
         }
 
-        public string Invoke(){
-            return _manager.ProductService.GetAll(false).Count().ToString();
-        } 
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+            var products = await _manager.ProductService.GetAll(false);
+            var count = products.Count().ToString();
+            return Content(count);
+        }
     }
 }

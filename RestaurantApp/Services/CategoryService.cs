@@ -13,8 +13,8 @@ namespace Services
             _manager = manager;
         }
 
-        public IEnumerable<Category> GetAll(bool trackChanges){
-            return _manager.Category.GetAllCategories(trackChanges);
+        public async Task<IEnumerable<Category>> GetAll(bool trackChanges){
+            return await _manager.Category.GetAllCategories(trackChanges);
         }
     }
 }

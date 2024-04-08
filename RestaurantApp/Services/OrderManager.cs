@@ -23,9 +23,9 @@ namespace Services
             _manager.Save();
         }
 
-        public Order? GetOneOrder(int id)
+        public async Task<Order?> GetOneOrder(int id)
         {
-            return _manager.Order.GetOneOrder(id);
+            return await _manager.Order.GetOneOrder(id);
         }
 
         public void SaveOrder(Order order)

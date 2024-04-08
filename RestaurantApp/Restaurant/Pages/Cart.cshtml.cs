@@ -21,8 +21,8 @@ namespace Restaurant.Pages
             ReturnUrl = returnUrl ?? "/"; //returnUrl boşsa "/", yani anasayfaya yönlendir.
             //Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
         }
-        public IActionResult OnPost(int ProductId, string returnUrl){
-            Product? product = _manager.ProductService.GetOne(ProductId, false);
+        public async Task<IActionResult> OnPost(int ProductId, string returnUrl){
+            Product? product = await _manager.ProductService.GetOne(ProductId, false);
             if(product is not null){
                 //Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
                 Cart.AddItem(product, 1);

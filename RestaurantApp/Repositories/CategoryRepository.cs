@@ -9,6 +9,6 @@ namespace Repositories
         {
         }
 
-        public IQueryable<Category> GetAllCategories(bool trackChanges) => FindAll(trackChanges);
+        public async Task<IQueryable<Category>> GetAllCategories(bool trackChanges) => await FindAll(trackChanges);
     }
 }

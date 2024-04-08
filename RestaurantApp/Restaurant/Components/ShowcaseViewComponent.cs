@@ -11,9 +11,9 @@ namespace Restaurant.Components
         {
             _manager = manager;
         }
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            var products = _manager.ProductService.GetShowcaseProducts(false);
+            var products = await _manager.ProductService.GetShowcaseProducts(false);
             return View(products);
         }
     }

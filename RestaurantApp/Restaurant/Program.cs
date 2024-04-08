@@ -1,7 +1,10 @@
+using log4net.Config;
 using Restaurant.Infrastructe;
 using Restaurant.Infrastructe.Extensions;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+XmlConfigurator.Configure(new FileInfo("log4net.config"));
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.ConfigureSession();
@@ -10,13 +13,20 @@ builder.Services.ConfigureSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+builder.Services.AddLogging();
+
 builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.ConfigureRepositoryRegistration();
 builder.Services.ConfigureServiceRegistration();
 
 builder.Services.AddAutoMapper(typeof(Program));
-
+builder.Services.AddLogging(loggingBuilder =>
+{
+    var logFilePath = Path.Combine(builder.Environment.ContentRootPath, "Logs", "logfile.txt");
+    loggingBuilder.AddFile(logFilePath, fileSizeLimitBytes: 100_000_000); // Loglarý dosyaya yaz
+});
 var app = builder.Build();
+
 app.ConfigureAndCheckMigration();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -28,7 +38,6 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseSession();
 
 app.UseRouting();

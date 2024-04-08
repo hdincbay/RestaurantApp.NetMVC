@@ -1,0 +1,1 @@
+2024-04-07 21:24:42,943 [4] INFO  Restaurant.Controllers.ProductController - This is an info message from HomeController Index action.
