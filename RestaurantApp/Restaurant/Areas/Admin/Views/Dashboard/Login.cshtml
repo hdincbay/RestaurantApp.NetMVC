@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+@model LoginViewModel
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="login-container">
+        <h2>Giriş Yap</h2>
+        <form method="post" asp-action="Login">
+            <div class="input-group">
+                <label asp-for="UserName">Kullanıcı Adı:</label>
+                <input asp-for="UserName" type="text" id="username" name="UserName" required>
+            </div>
+            <div class="input-group">
+                <label asp-for="Password">Parola:</label>
+                <input asp-for="Password" type="password" id="password" name="Password" required>
+            </div>
+            <div class="input-group d-flex">
+                <label asp-for="RememberMe">Beni Hatırla:</label>
+                <input asp-for="RememberMe" type="checkbox" id="rememberme" name="RememberMe">
+            </div>
+            <button type="submit">Giriş</button>
+        </form>
+        <div>Hesabın Yok Mu?</div>
+        <a asp-controller="Dashboard" asp-action="SignUp">Kaydol</a>
+    </div>
+</body>
+</html>
+

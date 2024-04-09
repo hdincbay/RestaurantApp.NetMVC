@@ -1,0 +1,79 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../../../images/AdminLoginImage.jpg');
+    background-size: cover; /* Resmi sayfa boyutuna sığdır */
+    background-position: center; /* Resmi ortala */
+}
+
+.login-container {
+    width: 25%;
+    height: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: .7;
+    transition: opacity 0.3s; /* Geçiş efekti */
+}
+
+    .login-container:hover {
+        opacity: 1;
+    }
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .input-group input {
+        width: calc(100% - 20px); /* Genişlik hesaplaması, 20 piksel sol ve sağ boşluk bırakır */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.login-container :hover {
+    opacity: 1;
+}
+
+a {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

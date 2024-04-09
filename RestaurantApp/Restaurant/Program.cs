@@ -1,4 +1,7 @@
+using Entities.Models;
 using log4net.Config;
+using Microsoft.Extensions.DependencyInjection;
+using Repositories;
 using Restaurant.Infrastructe;
 using Restaurant.Infrastructe.Extensions;
 using Serilog;
@@ -8,13 +11,11 @@ XmlConfigurator.Configure(new FileInfo("log4net.config"));
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.ConfigureSession();
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 builder.Services.AddLogging();
-
 builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.ConfigureRepositoryRegistration();
 builder.Services.ConfigureServiceRegistration();
@@ -41,7 +42,7 @@ app.UseStaticFiles();
 app.UseSession();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoint => {

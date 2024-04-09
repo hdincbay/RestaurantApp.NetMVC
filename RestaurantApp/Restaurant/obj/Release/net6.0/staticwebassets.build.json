@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZBA198JRJ3GGTxnTEHxY2mTzTw1AePwgYBX3Hiu+KVk=",
+  "Hash": "S4wDpyjI4eFh1jvkxR4wMuJk8oWgmeHRR+CiG2ROPxY=",
   "Source": "Restaurant",
   "BasePath": "_content/Restaurant",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\Areas\\Admin\\Views\\Dashboard\\login.cshtml.js",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "Areas/Admin/Views/Dashboard/login.cshtml.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "Areas\\Admin\\Views\\Dashboard\\login.cshtml.js"
+    },
     {
       "Identity": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\obj\\Release\\net6.0\\scopedcss\\bundle\\Restaurant.styles.css",
       "SourceId": "Restaurant",

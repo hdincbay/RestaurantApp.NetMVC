@@ -1,10 +1,12 @@
 using Entities.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using Repositories.Contracts;
 using Restaurant.Models;
 using Services;
 using Services.Contracts;
+using System;
 
 namespace Restaurant.Infrastructe.Extensions
 {
@@ -15,6 +17,7 @@ namespace Restaurant.Infrastructe.Extensions
             services.AddDbContext<RepositoryContext>(option => {
                 option.UseSqlServer(configuration.GetConnectionString("sqlConnection"), b => b.MigrationsAssembly("Restaurant"));
             });
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<RepositoryContext>();
         }
         public static void ConfigureSession(this IServiceCollection services)
         {

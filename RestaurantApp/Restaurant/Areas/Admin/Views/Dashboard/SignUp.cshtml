@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+@model SignUpViewModel
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="~/css/SignUp.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="login-container">
+        <h2>Kaydol</h2>
+        <form method="post" asp-action="SignUp">
+            <div class="input-group">
+                <label asp-for="UserName">Kullanıcı Adı:</label>
+                <input asp-for="UserName" type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label asp-for="Email">Email:</label>
+                <input asp-for="Email" type="email" id="email" name="email" required>
+            </div><div class="input-group">
+                <label asp-for="Phone">Phone:</label>
+                <input asp-for="Phone" type="number" id="Phone" name="Phone" required>
+            </div><div class="input-group">
+                <label asp-for="Password">Parola:</label>
+                <input asp-for="Password" type="password" id="password" name="password" required>
+            </div>
+            <button>Kaydol</button>
+        </form>
+    </div>
+</body>
+</html>

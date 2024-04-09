@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\Areas\\Admin\\Views\\Dashboard\\login.cshtml.js",
+      "PackagePath": "staticwebassets\\Areas\\Admin\\Views\\Dashboard\\login.cshtml.js"
+    },
+    {
       "Id": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Restaurant.bundle.scp.css",
       "PackagePath": "staticwebassets\\Restaurant.bundle.scp.css"
     },

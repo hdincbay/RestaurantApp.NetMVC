@@ -17,12 +17,18 @@ namespace Restaurant.Controllers
         }
 
         public async Task<IActionResult> Index(){
-            _logger.LogInformation("Test log");
+            _logger.LogInformation("ProductController: Index (+)");
+            _logger.LogInformation("ProductController: Liste getiriliyor...");
             var model = await Task.Run(() => _manager.ProductService.GetAll(false));
+            var modelCount = model.Count();
+            _logger.LogInformation($"ProductController: Toplam {model.Count()} adet ürün getirildi.");
             return View(model);
         }
         public async Task<IActionResult> Get(int id){
+            _logger.LogInformation("ProductController: Index (+)");
+            _logger.LogInformation($"ProductController: {id} numaralý ürün getiriliyor...");
             var model = await Task.Run(() => _manager.ProductService.GetOne(id, true));
+            _logger.LogInformation($"ProductController: {model.ProductName} isimli ürün getirildi.");
             return View(model);
         }
     }
