@@ -1,0 +1,6 @@
+2024-04-20 00:12:32,707 [4] INFO  Restaurant.Controllers.ProductController - ProductController: Index (+)
+2024-04-20 00:12:33,164 [4] INFO  Restaurant.Controllers.ProductController - ProductController: Liste getiriliyor...
+2024-04-20 00:12:34,246 [6] INFO  Restaurant.Controllers.ProductController - ProductController: Toplam 2 adet ürün getirildi.
+2024-04-20 00:13:05,162 [21] INFO  Restaurant.Controllers.ProductController - ProductController: Index (+)
+2024-04-20 00:13:10,382 [21] INFO  Restaurant.Controllers.ProductController - ProductController: Liste getiriliyor...
+2024-04-20 00:14:07,410 [6] INFO  Restaurant.Controllers.ProductController - ProductController: Toplam 2 adet ürün getirildi.

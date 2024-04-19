@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wa6b2AYCgN+XsXBpC7j77CpE8GHNwrjJvwGQ3qTH5pkx+zgyXIoSel6Sw8IaCSN1A7+oQ7Jp88tw3RW8/YWmXg==",
+  "dgSpecHash": "Msl4EbyiboBDtU9Yu//E0XiLJ/O6FXGuj2Q2dHS1WAguhZgAQof/fr+DwbxP7O7jWwloHMO1znNYSFclDG4ZlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Restaurant\\Restaurant.csproj",
+  "projectFilePath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\Restaurant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hdinc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hdinc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

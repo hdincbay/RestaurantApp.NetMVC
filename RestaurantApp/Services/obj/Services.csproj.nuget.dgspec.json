@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Services\\Services.csproj": {}
+    "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj"
+              "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Services\\Services.csproj": {
+    "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Services\\obj\\",
+        "outputPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,11 +158,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Entities\\Entities.csproj"
+              "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\hdinc\\Downloads\\RestaurantApp.NetMVC-main\\RestaurantApp.NetMVC-main\\RestaurantApp\\Repositories\\Repositories.csproj"
+              "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj"
               }
             }
           }
