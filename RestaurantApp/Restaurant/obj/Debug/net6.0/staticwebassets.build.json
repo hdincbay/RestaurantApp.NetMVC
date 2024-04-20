@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XvuUJ8B0TKUAlECGSw4E83V6N7UvUbXu3gFMebds4cs=",
+  "Hash": "2m9R8RIwTsfmSxTtaENU7XADtvJBUpn0uzDeSDhs1tI=",
   "Source": "Restaurant",
   "BasePath": "_content/Restaurant",
   "Mode": "Default",
@@ -2639,6 +2639,25 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-chevanon-photography-312418.jpg"
     },
     {
+      "Identity": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "images/pexels-dana-tentis-118658-262959.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg"
+    },
+    {
       "Identity": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-designbyja-2109099 (1).jpg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
@@ -2770,6 +2789,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pexels-nishant-aneja-2955819.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-pascal-claivaz-66964-410648.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "images/pexels-pascal-claivaz-66964-410648.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pexels-pascal-claivaz-66964-410648.jpg"
     },
     {
       "Identity": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-rdne-stock-project-8963961.jpg",

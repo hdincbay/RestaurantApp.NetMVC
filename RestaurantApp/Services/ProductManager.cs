@@ -16,10 +16,10 @@ namespace Services
 			_mapper = mapper;
 		}
 
-		public void CreateOne(ProductDtoForInsertion productDto)
+		public async Task CreateOne(ProductDtoForInsertion productDto)
         {
             Product product = _mapper.Map<Product>(productDto);
-            _manager.Product.CreateOneProduct(product);
+            await _manager.Product.CreateOneProduct(product);
             _manager.Save();
         }
 
@@ -27,7 +27,7 @@ namespace Services
         {
             Product product = await GetOne(id, true);
             if(product is not null){
-                _manager.Product.DeleteOneProduct(product);
+                await _manager.Product.DeleteOneProduct(product);
                 _manager.Save();    
             }
         }
@@ -42,9 +42,9 @@ namespace Services
             return await _manager.Product.GetOneProduct(id, trackChanges);
         }
 
-        public ProductDtoForUpdate GetOneForUpdate(int id, bool trackChanges)
+        public async Task<ProductDtoForUpdate> GetOneForUpdate(int id, bool trackChanges)
         {
-            var product = GetOne(id, trackChanges);
+            var product = await GetOne(id, trackChanges);
             ProductDtoForUpdate productDto = _mapper.Map<ProductDtoForUpdate>(product);
             return productDto;
         }
@@ -56,14 +56,14 @@ namespace Services
         }
 
 
-        public void UpdateOne(ProductDtoForUpdate productDto)
+        public async Task UpdateOne(ProductDtoForUpdate productDto)
         {
             //var entity = _manager.Product.GetOneProduct(productDto.ProductId, true);
             // entity.ProductName = productDto.ProductName;
             // entity.Price = productDto.Price;
             // entity.CategoryId = productDto.CategoryId;
             var entity = _mapper.Map<Product>(productDto);
-            _manager.Product.UpdateOneProduct(entity);
+            await _manager.Product.UpdateOneProduct(entity);
             _manager.Save();
         }
     }

@@ -4,3 +4,53 @@
 2024-04-20 00:13:05,162 [21] INFO  Restaurant.Controllers.ProductController - ProductController: Index (+)
 2024-04-20 00:13:10,382 [21] INFO  Restaurant.Controllers.ProductController - ProductController: Liste getiriliyor...
 2024-04-20 00:14:07,410 [6] INFO  Restaurant.Controllers.ProductController - ProductController: Toplam 2 adet ürün getirildi.
+2024-04-20 11:28:47,407 [4] INFO  Restaurant.Controllers.ProductController - ProductController: Index (+)
+2024-04-20 11:28:47,895 [4] INFO  Restaurant.Controllers.ProductController - ProductController: Liste getiriliyor...
+2024-04-20 11:28:57,291 [22] INFO  Restaurant.Controllers.ProductController - ProductController: Toplam 2 adet ürün getirildi.
+2024-04-20 11:30:07,546 [35] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:30:24,696 [22] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:30:30,810 [35] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:30:35,752 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:31:12,169 [35] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:32:48,637 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:33:34,471 [36] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:36:27,772 [36] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:36:35,400 [50] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:37:27,925 [8] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:37:30,953 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:37:37,484 [24] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:43:55,833 [7] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:45:50,177 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-dana-tentis-118658-262959.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:46:37,541 [40] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:46:41,663 [35] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:46:52,679 [42] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:46:52,685 [36] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:47:03,663 [42] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:48:02,904 [48] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-dana-tentis-118658-262959.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:50:52,238 [16] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:52:32,415 [9] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-pascal-claivaz-66964-410648.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:54:13,910 [9] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:54:17,109 [9] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 11:57:51,520 [7] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 11:58:04,486 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:02:53,033 [26] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:02:53,051 [18] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:04:51,526 [16] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:04:51,544 [17] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:05:39,550 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-pascal-claivaz-66964-410648.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:05:46,853 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün dosya yolu: /images/pexels-pascal-claivaz-66964-410648.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:05:57,641 [27] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:06:04,094 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:12:45,267 [18] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:12:45,282 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 2 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:12:50,379 [18] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:13:15,211 [4] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-pascal-claivaz-66964-410648.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:14:06,643 [35] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:14:06,651 [31] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 3 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:16:20,898 [15] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Create View'i getiriliyor... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:16:26,925 [15] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:16:26,932 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 3 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:16:57,777 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün oluþturulacaðý dosya yolu: C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\wwwroot\images\pexels-dana-tentis-118658-262959.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:17:00,203 [10] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Klasörün dosya yolu: /images/pexels-dana-tentis-118658-262959.jpg - Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
+2024-04-20 12:17:06,826 [6] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - Ürünler getiriliyor...  Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-04-20 12:17:07,272 [9] DEBUG Restaurant.Areas.Admin.Controllers.ProductController - 3 Adet Ürün Getirildi... Restaurant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Admin
