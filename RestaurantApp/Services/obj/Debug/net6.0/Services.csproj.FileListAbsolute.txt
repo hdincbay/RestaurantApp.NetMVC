@@ -61,8 +61,8 @@ C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.Gen
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
-C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\refint\Services.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.pdb
 C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\ref\Services.dll
+C:\Users\hdinc\source\repos\RestaurantApp\Services\obj\Debug\net6.0\Services.csproj.Up2Date

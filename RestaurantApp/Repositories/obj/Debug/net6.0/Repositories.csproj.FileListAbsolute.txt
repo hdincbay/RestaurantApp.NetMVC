@@ -53,8 +53,8 @@ C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Reposito
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
-C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\refint\Repositories.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Repositories.pdb
 C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+C:\Users\hdinc\source\repos\RestaurantApp\Repositories\obj\Debug\net6.0\Reposito.787EC4B2.Up2Date

@@ -529,6 +529,14 @@
       "PackagePath": "staticwebassets\\images\\blog-2.jpg"
     },
     {
+      "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\bread-barrel.jpg",
+      "PackagePath": "staticwebassets\\images\\bread-barrel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\cake.jpg",
+      "PackagePath": "staticwebassets\\images\\cake.jpg"
+    },
+    {
       "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\doner.jpg",
       "PackagePath": "staticwebassets\\images\\doner.jpg"
     },
@@ -551,6 +559,10 @@
     {
       "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-chevanon-photography-312418.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-chevanon-photography-312418.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-cottonbro-5602502.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-cottonbro-5602502.jpg"
     },
     {
       "Id": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Restaurant\\wwwroot\\images\\pexels-dana-tentis-118658-262959.jpg",

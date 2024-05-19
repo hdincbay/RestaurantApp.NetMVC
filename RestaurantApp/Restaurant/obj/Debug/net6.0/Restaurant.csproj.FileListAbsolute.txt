@@ -695,9 +695,9 @@ C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\scopedcss\
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\scopedcss\bundle\Restaurant.styles.css
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\scopedcss\projectbundle\Restaurant.bundle.scp.css
-C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\Restaurant.csproj.CopyComplete
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\Restaurant.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\refint\Restaurant.dll
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\Restaurant.pdb
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\Restaurant.genruntimeconfig.cache
 C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\ref\Restaurant.dll
+C:\Users\hdinc\source\repos\RestaurantApp\Restaurant\obj\Debug\net6.0\Restaurant.csproj.Up2Date

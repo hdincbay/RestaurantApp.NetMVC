@@ -19,7 +19,7 @@ namespace Restaurant.Controllers
         public async Task<IActionResult> Index(){
             log.Info("ProductController: Index (+)");
             log.Info("ProductController: Liste getiriliyor...");
-            var model = await Task.Run(() => _manager.ProductService.GetAll(false));
+            var model = await _manager.ProductService.GetAll(false);
             var modelCount = model.Count();
             log.Info($"ProductController: Toplam {model.Count()} adet ürün getirildi.");
             return View(model);
@@ -27,7 +27,7 @@ namespace Restaurant.Controllers
         public async Task<IActionResult> Get(int id){
             log.Info("ProductController: Index (+)");
             log.Info($"ProductController: {id} numaralý ürün getiriliyor...");
-            var model = await Task.Run(() => _manager.ProductService.GetOne(id, true));
+            var model = await _manager.ProductService.GetOne(id, true);
             log.Info($"ProductController: {model.ProductName} isimli ürün getirildi.");
             return View(model);
         }
