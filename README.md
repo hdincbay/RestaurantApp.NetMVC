@@ -1,10 +1,12 @@
 <h6>Ana Sayfa</h6>
 
-![Anasayfa](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/11eb46f0-315e-40b5-bb41-c57ea5fd8637)
+![Showcase](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/23242185-ccb7-4932-8c1a-80742efc7088)
+
 
 <h6>Ürünler sayfası</h6>
 
-![Urunler](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/c97ac317-269e-4421-98ee-bad22cc5d430)
+![products](https://github.com/hdincbay/RestaurantApp.NetMVC/assets/100165177/4d59a197-e6e3-45b1-ac14-310d4fffc24e)
+
 
 <h6>Ürün detay sayfası</h6>
 
