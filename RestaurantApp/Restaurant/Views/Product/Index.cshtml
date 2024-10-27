@@ -1,11 +1,107 @@
 @model IEnumerable<Product>
+
 <div class="row">
-    <div class="col-md-3">@await Component.InvokeAsync("CategoriesMenu")</div>
+    <div class="col-md-3">
+        <ul class="list-group">
+            @foreach (Category ct in ViewBag.CategoryList)
+            {
+                <li class="list-group-item text-center">
+                    <a href="#" onclick="loadProducts(@ct.CategoryId)" class="text-decoration-none text-dark">@ct.CategoryName</a>
+                </li>
+            }
+        </ul>
+    </div>
     <div class="col-md-9">
-        <div class="row">
-            @foreach(Product prd in Model){
+        <div class="row" name="productrow">
+            @foreach (Product prd in Model)
+            {
                 <partial name="_ProductCard" model="prd"></partial>
             }
         </div>
     </div>
 </div>
+<script>
+    var csrfToken = '@Html.AntiForgeryToken()';
+</script>
+<script>
+    function loadProducts(categoryId) {
+        $.ajax({
+            url: `/Product/GetProductsByCategoryId/${categoryId}`,
+            type: 'GET',
+            success: function (data) {
+                const productRow = $('div[name="productrow"]');
+                productRow.empty(); // Önce mevcut ürünleri temizleyin
+
+                // Mevcut URL'yi al ve kodla
+                const returnUrl = encodeURIComponent(window.location.pathname + window.location.search);
+
+                // Ürün kartlarýný HTML olarak ekleme
+                data.forEach(prd => {
+                    const productCard = createProductCard(prd, returnUrl);
+                    productRow.append(productCard);
+                });
+
+                // Dinamik olarak eklenen butonlara olay dinleyicisi ekleyin
+                addCartEventListeners();
+            },
+            error: function (xhr, status, error) {
+                console.error('AJAX Error:', status, error);
+            }
+        });
+    }
+
+    function createProductCard(product, returnUrl) {
+        return `
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="${product.imageUrl}" width="300" alt="Ürün Resmi">
+                        <div class="card-body">
+                            <h5 class="card-title">${product.productName}</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">${product.price} TL</h6>
+                            <div class="btn-group">
+                                <button data-product-id="${product.productId}" data-return-url="${returnUrl}" class="addToCart btn btn-outline-primary">
+                                    <i class="fa fa-cart-plus"></i> Sepete Ekle
+                                </button>
+                                <a href="/Product/Get/${product.productId}" class="btn btn-primary card-link">Detaylarý Göster</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+    }
+
+    function addCartEventListeners() {
+        document.querySelectorAll('.addToCart').forEach(button => {
+            button.addEventListener('click', function () {
+                const productId = this.getAttribute('data-product-id');
+                const returnUrl = this.getAttribute('data-return-url');
+                const decodedString = decodeURIComponent(returnUrl);
+                const valueMatch = csrfToken.match(/value="([^"]+)"/);
+                const formData = new FormData();
+                formData.append('ProductId', productId);
+                formData.append('returnUrl', returnUrl);
+                formData.append('__RequestVerificationToken', valueMatch[1]);
+                debugger;
+                fetch('/cart', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            return response.text().then(err => {
+                                throw new Error(`Hata: ${err}`);
+                            });
+                        }
+                        return response.json(); // JSON döneceði varsayýlýyor
+                    })
+                    .then(data => {
+                        console.log('Baþarýyla eklendi:', data);
+                        window.location.href = returnUrl; // Kullanýcýyý geri döndür
+                    })
+                    .catch(error => {
+                        console.error('Hata:', error);
+                    });
+            });
+        });
+    }
+</script>

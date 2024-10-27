@@ -2187,11 +2187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\hdinc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Services\\obj\\",
+      "outputPath": "C:\\Users\\hdinc\\Source\\Repos\\RestaurantApp.NetMVC\\RestaurantApp\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hdinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2202,17 +2202,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Entities\\Entities.csproj"
+            "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp\\Repositories\\Repositories.csproj"
+            "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\hdinc\\source\\repos\\RestaurantApp.NetMVC\\RestaurantApp\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -2253,7 +2254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
